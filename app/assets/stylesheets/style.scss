@@ -1,0 +1,55 @@
+html,body{
+	margin: 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+.btn{
+	background-color: inherit;
+	border:none;
+	outline: none;
+	text-transform:uppercase;
+	cursor: pointer; 
+	background-color: #B22D2A;
+	color: white;
+	font-size:1.2em;
+	padding: 10px 12px; 
+}
+
+.red{
+	color: red !important;
+}
+
+.be-red{
+	background-color: #B22D2A; 
+}
+.white{
+	color:#FFFFFB;
+}
+.large-padding{
+	padding: 10px 7px;
+}
+#logo{
+	font-size: 1.2em;
+	color: white;
+}
+.no-margin{
+	margin: 0px;
+}
+a,a:visited{
+	color: black;
+	text-decoration: none;
+}
+.no-list{
+	list-style: none;
+}
+.field{
+	margin-top: 1em;
+}
+.form-control{
+	border: none;
+	border-bottom: 1px solid;
+	outline: none;
+	width: 100%;
+	display: block;
+	padding: 10px 0px;
+	font-size: 1.2em;
+}
