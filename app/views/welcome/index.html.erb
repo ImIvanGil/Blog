@@ -1,1 +1,7 @@
-<h1>Bienvenidos al Blog de Churru!!!</h1>
+<% if user_signed_in? %>
+	<h1>Bienvenido <%= current_user.email %> al Blog de Churru!!!</h1>
+<% else %>
+	<div class="row center-xs warning  ">
+		<h1 align="center" class="white">Inicia session.</h1> 
+	</div>
+<% end %>

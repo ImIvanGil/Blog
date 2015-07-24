@@ -13,9 +13,20 @@ html,body{
 	font-size:1.2em;
 	padding: 10px 12px; 
 }
-
+.black{
+	color: black;
+}
 .red{
 	color: red !important;
+}
+
+.warning{
+	color: white !important;
+	background-color: #B22D2A;
+	border-radius: 68px 0px 68px 0px;
+	padding: 10px ;
+	border-left: 100px;
+
 }
 
 .be-red{
@@ -35,13 +46,13 @@ html,body{
 	margin: 0px;
 }
 a,a:visited{
-	color: black;
+	color: white;
 	text-decoration: none;
 }
 .no-list{
 	list-style: none;
 }
-.field{
+.field,.actions{
 	margin-top: 1em;
 }
 .form-control{
